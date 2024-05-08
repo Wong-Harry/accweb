@@ -36,11 +36,18 @@ export default {
 <i18n>
 {
     "en": {
-        "track_label": "Track",
-        "carModel_label": "Car Model #",
         "ballast_label": "Ballast: 0 to 100kg max.",
+        "carModel_label": "Car Model #",
+        "remove_button": "Remove BOP",
         "restrictor_label": "Motor Restrictor: 0 to 20% max.",
-        "remove_button": "Remove BOP"
+        "track_label": "Track"
+    },
+    "zh": {
+        "ballast_label": "配重：最大0至100公斤。",
+        "carModel_label": "车辆类型",
+        "remove_button": "移除 BOP",
+        "restrictor_label": "发动机进气限制：最大 0 至 20%。",
+        "track_label": "赛道"
     }
 }
 </i18n>

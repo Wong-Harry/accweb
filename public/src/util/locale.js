@@ -1,7 +1,5 @@
 // list of available languages
-const languages = [
-    "en"
-];
+export const languages = ['en', 'zh']
 
 // Returns the users locale as two character lowercase ISO string.
 export function getLocale() {

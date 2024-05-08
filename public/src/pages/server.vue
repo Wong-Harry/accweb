@@ -123,12 +123,20 @@ export default {
 <i18n>
 {
     "en": {
-        "save": "Save",
-        "cancel": "Cancel",
         "back": "Back",
-        "servername_label": "Servername",
+        "cancel": "Cancel",
+        "save": "Save",
+        "save_error": "Error saving configuration, please check your input.",
         "server_config": "Configure server",
-        "save_error": "Error saving configuration, please check your input."
+        "servername_label": "Servername"
+    },
+    "zh": {
+        "back": "后退",
+        "cancel": "取消",
+        "save": "保存",
+        "save_error": "保存配置时出错，请检查您的输入。",
+        "server_config": "保存配置",
+        "servername_label": "服务名称"
     }
 }
 </i18n>

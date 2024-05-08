@@ -83,19 +83,34 @@ export default {
 <i18n>
 {
     "en": {
-        "title": "Event rules",
-        "qualifyStandingType_label": "Qualify Standing Type",
-        "pitWindowLengthSec_label": "Pit Window Length (seconds)",
         "driverStintTimeSec_label": "Driver Stint Time (seconds)",
-        "mandatoryPitstopCount_label": "Mandatory Pitstop Count",
-        "maxTotalDrivingTime_label": "Max Total Driving Time",
-        "maxDriversCount_label": "Max Drivers Count",
-        "tyreSetCount_label": "Tyre Set Count",
+        "isMandatoryPitstopRefuellingRequired_label": "Is Mandatory Pitstop Refuelling Required",
+        "isMandatoryPitstopSwapDriverRequired_label": "Is Mandatory Pitstop Swap Driver Required",
+        "isMandatoryPitstopTyreChangeRequired_label": "Is Mandatory Pitstop Tyre Change Required",
         "isRefuellingAllowedInRace_label": "Is Refuelling Allowed in Race",
         "isRefuellingTimeFixed_label": "Is Refuelling Time Fixed",
-        "isMandatoryPitstopRefuellingRequired_label": "Is Mandatory Pitstop Refuelling Required",
-        "isMandatoryPitstopTyreChangeRequired_label": "Is Mandatory Pitstop Tyre Change Required",
-        "isMandatoryPitstopSwapDriverRequired_label": "Is Mandatory Pitstop Swap Driver Required"
+        "mandatoryPitstopCount_label": "Mandatory Pitstop Count",
+        "maxDriversCount_label": "Max Drivers Count",
+        "maxTotalDrivingTime_label": "Max Total Driving Time",
+        "pitWindowLengthSec_label": "Pit Window Length (seconds)",
+        "qualifyStandingType_label": "Qualify Standing Type",
+        "title": "Event rules",
+        "tyreSetCount_label": "Tyre Set Count"
+    },
+    "zh": {
+        "driverStintTimeSec_label": "驾驶员停留时间（秒）",
+        "isMandatoryPitstopRefuellingRequired_label": "是否需要强制进站加油",
+        "isMandatoryPitstopSwapDriverRequired_label": "是否需要强制进站换车",
+        "isMandatoryPitstopTyreChangeRequired_label": "是否需要强制进站更换轮胎",
+        "isRefuellingAllowedInRace_label": "比赛中允许加油",
+        "isRefuellingTimeFixed_label": "加油时间固定",
+        "mandatoryPitstopCount_label": "强制进站计数",
+        "maxDriversCount_label": "最大驾驶员数量",
+        "maxTotalDrivingTime_label": "最长总驾驶时间",
+        "pitWindowLengthSec_label": "维修站窗口长度（秒）",
+        "qualifyStandingType_label": "排位赛类型",
+        "title": "比赛规则",
+        "tyreSetCount_label": "轮胎组数"
     }
 }
 </i18n>

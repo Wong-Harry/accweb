@@ -108,14 +108,24 @@ export default {
 <i18n>
 {
     "en": {
-        "title": "BOP Settings",
-        "track_label": "Track",
-        "carModel_label": "Car Model #",
-        "ballast_label": "Ballast: 0 to 100kg max.",
-        "restrictor_label": "Motor Restrictor: 0 to 20% max.",
         "add_entry_button": "Add BOP",
+        "ballast_label": "Ballast: 0 to 100kg max.",
+        "carModel_label": "Car Model #",
         "clear_entries_button": "Clear all BOP",
-        "confirm_clear_entries": "Do you really want to remove all BOP?"    
+        "confirm_clear_entries": "Do you really want to remove all BOP?",
+        "restrictor_label": "Motor Restrictor: 0 to 20% max.",
+        "title": "BOP Settings",
+        "track_label": "Track"
+    },
+    "zh": {
+        "add_entry_button": "添加 BOP",
+        "ballast_label": "配重：（0 - 100kg）",
+        "carModel_label": "汽车模型#",
+        "clear_entries_button": "清除所有 BOP",
+        "confirm_clear_entries": "您确实要删除所有 BOP 吗？",
+        "restrictor_label": "发动机进气限制：最大 0 至 20%。",
+        "title": "BOP 设置",
+        "track_label": "赛道"
     }
 }
 </i18n>

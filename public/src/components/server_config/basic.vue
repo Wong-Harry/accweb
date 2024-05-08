@@ -56,13 +56,22 @@ export default {
 <i18n>
 {
     "en": {
-        "title": "Basic configuration",
-        "udp_label": "UDP port",
-        "tcp_label": "TCP port",
-        "maxconnections_label": "Max. connections",
-        "registertolobby_label": "Register to lobby",
         "landiscovery_label": "LAN Discovery",
-        "publicip_label": "Public IP"
+        "maxconnections_label": "Max. connections",
+        "publicip_label": "Public IP",
+        "registertolobby_label": "Register to lobby",
+        "tcp_label": "TCP port",
+        "title": "Basic configuration",
+        "udp_label": "UDP port"
+    },
+    "zh": {
+        "landiscovery_label": "局域网发现",
+        "maxconnections_label": "最大连接数",
+        "publicip_label": "公共 IP",
+        "registertolobby_label": "注册大厅",
+        "tcp_label": "TCP 端口",
+        "title": "基本配置",
+        "udp_label": "UDP 端口"
     }
 }
 </i18n>

@@ -55,10 +55,15 @@ export default {
 
 <i18n>
 {
-	"en": {
-		"title": "Server Status",
-		"refresh": "Refresh",
-		"receive_server_list_error": "Error receiving server list."
-	}
+    "en": {
+        "receive_server_list_error": "Error receiving server list.",
+        "refresh": "Refresh",
+        "title": "Server Status"
+    },
+    "zh": {
+        "receive_server_list_error": "接收服务器列表错误。",
+        "refresh": "刷新",
+        "title": "服务状态"
+    }
 }
 </i18n>

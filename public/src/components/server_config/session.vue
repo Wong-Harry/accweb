@@ -45,15 +45,26 @@ export default {
 <i18n>
 {
     "en": {
-        "hourofday_label": "Hour of day",
-        "dayofweekend_label": "Day of weekend",
-        "timemultiplier_label": "Time multiplier",
-        "type_label": "Type",
-        "sessiondurationminutes_label": "Session duration minutes",
-        "remove_button": "Remove session",
-        "Race": "Race",
+        "Practice": "Practice",
         "Qualifying": "Qualifying",
-        "Practice": "Practice"
+        "Race": "Race",
+        "dayofweekend_label": "Day of weekend",
+        "hourofday_label": "Hour of day",
+        "remove_button": "Remove session",
+        "sessiondurationminutes_label": "Session duration minutes",
+        "timemultiplier_label": "Time multiplier",
+        "type_label": "Type"
+    },
+    "zh": {
+        "Practice": "周末的哪一天",
+        "Qualifying": "一天中的小时",
+        "Race": "练习赛",
+        "dayofweekend_label": "排位赛",
+        "hourofday_label": "正赛",
+        "remove_button": "删除比赛",
+        "sessiondurationminutes_label": "比赛持续时间（分钟）",
+        "timemultiplier_label": "时间速率",
+        "type_label": "类型"
     }
 }
 </i18n>

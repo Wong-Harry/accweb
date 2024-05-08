@@ -53,10 +53,16 @@ export default {
 <i18n>
 {
     "en": {
-        "refresh": "Refresh",
         "back": "Back",
+        "load_logs_error": "Error loading logs.",
         "output_label": "Log output",
-        "load_logs_error": "Error loading logs."
+        "refresh": "Refresh"
+    },
+    "zh": {
+        "back": "后退",
+        "load_logs_error": "加载日志时出错。",
+        "output_label": "日志输出",
+        "refresh": "刷新"
     }
 }
 </i18n>

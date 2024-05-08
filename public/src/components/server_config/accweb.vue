@@ -129,12 +129,20 @@ export default {
 <i18n>
 {
     "en": {
-        "title": "ACC Web configuration",
+        "adv_windows_alert": "CAUTION: If you are not familiarized with this terms, DISABLE this feature!",
         "autostart_label": "Server instance auto start.",
-        "enable_adv_windows_conf": "Advanced Windows Configurations",
         "cpu_priority_label": "Process priority",
+        "enable_adv_windows_conf": "Advanced Windows Configurations",
         "enable_windows_firewall": "Enable Windows Firewall",
-        "adv_windows_alert": "CAUTION: If you are not familiarized with this terms, DISABLE this feature!"
+        "title": "ACC Web configuration"
+    },
+    "zh": {
+        "adv_windows_alert": "注意：如果您不熟悉这些条件，请禁用此功能！",
+        "autostart_label": "服务器实例自动启动。",
+        "cpu_priority_label": "进程优先级",
+        "enable_adv_windows_conf": "高级 Windows 配置",
+        "enable_windows_firewall": "启用 Windows 防火墙",
+        "title": "ACC Web 配置"
     }
 }
 </i18n>

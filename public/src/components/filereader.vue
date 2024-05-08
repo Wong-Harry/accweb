@@ -37,8 +37,11 @@ export default {
 
 <i18n>
 {
-  "en": {
-    "upload_config": "Upload config"
-  }
+    "en": {
+        "upload_config": "Upload config"
+    },
+    "zh": {
+        "upload_config": "上传配置"
+    }
 }
 </i18n>

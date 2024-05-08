@@ -44,12 +44,19 @@ export default {
 
 <i18n>
 {
-	"en": {
-		"title": "Login",
-		"password_label": "Password",
-		"password_placeholder": "Password",
-		"password_error": "Password incorrect",
-		"submit_value": "Login"
-	}
+    "en": {
+        "password_error": "Password incorrect",
+        "password_label": "Password",
+        "password_placeholder": "Password",
+        "submit_value": "Login",
+        "title": "Login"
+    },
+    "zh": {
+        "password_error": "密码",
+        "password_label": "密码",
+        "password_placeholder": "密码",
+        "submit_value": "登录",
+        "title": "登录"
+    }
 }
 </i18n>

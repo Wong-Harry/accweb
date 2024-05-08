@@ -80,13 +80,22 @@ export default {
 <i18n>
 {
     "en": {
+        "drivercategory_label": "Driver Category",
         "firstname_label": "First Name",
         "lastname_label": "Last Name",
-        "shortname_label": "Short Name",
-        "drivercategory_label": "Driver Category",
+        "nationality_label": "Nationality",
         "playerid_label": "PlayerID",
         "remove_button": "Remove Driver",
-        "nationality_label": "Nationality"
+        "shortname_label": "Short Name"
+    },
+    "zh": {
+        "drivercategory_label": "驾驶员类别",
+        "firstname_label": "名字",
+        "lastname_label": "姓氏",
+        "nationality_label": "国籍",
+        "playerid_label": "玩家ID",
+        "remove_button": "删除车手",
+        "shortname_label": "简称"
     }
 }
 </i18n>

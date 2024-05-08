@@ -64,16 +64,28 @@ export default {
 <i18n>
 {
     "en": {
-        "title": "Assists rules",
-        "stabilityControlLevelMax_label": "Stability Control Level Max: 0 to 100 max",
-        "disableAutosteer_label": "Disable Auto-Steer",
-        "disableAutoLights_label": "Disable Auto-Lights",
-        "disableAutoWiper_label": "Disable Auto-Wiper",
-        "disableAutoEngineStart_label": "Disable Auto-Engine Start",
-        "disableAutoPitLimiter_label": "Disable Auto Pit Limiter",
-        "disableAutoGear_label": "Disable Auto-Gear",
         "disableAutoClutch_label": "Disable Auto-Clutch",
-        "disableIdealLine_label": "Disable Ideal Line"
+        "disableAutoEngineStart_label": "Disable Auto-Engine Start",
+        "disableAutoGear_label": "Disable Auto-Gear",
+        "disableAutoLights_label": "Disable Auto-Lights",
+        "disableAutoPitLimiter_label": "Disable Auto Pit Limiter",
+        "disableAutoWiper_label": "Disable Auto-Wiper",
+        "disableAutosteer_label": "Disable Auto-Steer",
+        "disableIdealLine_label": "Disable Ideal Line",
+        "stabilityControlLevelMax_label": "Stability Control Level Max: 0 to 100 max",
+        "title": "Assists rules"
+    },
+    "zh": {
+        "disableAutoClutch_label": "禁用自动离合器",
+        "disableAutoEngineStart_label": "禁用发动机自动启动",
+        "disableAutoGear_label": "禁用自动齿轮",
+        "disableAutoLights_label": "禁用自动灯光",
+        "disableAutoPitLimiter_label": "禁用自动进站限制",
+        "disableAutoWiper_label": "禁用自动转向",
+        "disableAutosteer_label": "禁用自动雨刮器",
+        "disableIdealLine_label": "禁用理想线",
+        "stabilityControlLevelMax_label": "稳定性控制水平最大值：0 至 100",
+        "title": "助攻规则"
     }
 }
 </i18n>

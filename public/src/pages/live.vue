@@ -317,9 +317,14 @@ tr:nth-child(odd) {
 <i18n>
 {
     "en": {
-        "refresh": "Refresh",
         "back": "Back",
-        "load_live_error": "Error loading server live data."
+        "load_live_error": "Error loading server live data.",
+        "refresh": "Refresh"
+    },
+    "zh": {
+        "back": "后退",
+        "load_live_error": "加载服务器实时数据时出错。",
+        "refresh": "刷新"
     }
 }
 </i18n>

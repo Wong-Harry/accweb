@@ -17,9 +17,13 @@ export default {
 
 <i18n>
 {
-	"en": {
-		"title": "#404",
-		"message": "Page not found."
-	}
+    "en": {
+        "message": "Page not found.",
+        "title": "#404"
+    },
+    "zh": {
+        "message": "找不到网页。",
+        "title": "#404"
+    }
 }
 </i18n>

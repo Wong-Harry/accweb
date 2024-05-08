@@ -146,15 +146,26 @@ export default {
 <i18n>
 {
     "en": {
-        "title": "Servers",
         "add_new": "Add Server",
-        "stop_all": "Stop All Servers",
-        "refresh": "Refresh",
-        "receive_server_list_error": "Error receiving server list.",
-        "stop_all_error": "Error while stopping all servers",
-        "sorting": "Sorting: ",
         "confirm_stop_all": "Do you really want to stop all acc servers?",
-        "log_out": "Log out"
+        "log_out": "Log out",
+        "receive_server_list_error": "Error receiving server list.",
+        "refresh": "Refresh",
+        "sorting": "Sorting: ",
+        "stop_all": "Stop All Servers",
+        "stop_all_error": "Error while stopping all servers",
+        "title": "Servers"
+    },
+    "zh": {
+        "add_new": "添加服务",
+        "confirm_stop_all": "您确实要停止所有 acc 服务器吗？",
+        "log_out": "登出",
+        "receive_server_list_error": "接收服务器列表错误。",
+        "refresh": "刷新",
+        "sorting": "排序：",
+        "stop_all": "停止所有服务",
+        "stop_all_error": "停止所有服务时出错",
+        "title": "服务"
     }
 }
 </i18n>

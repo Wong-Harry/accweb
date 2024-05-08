@@ -1,4 +1,5 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const path = require('path');
 
 module.exports = {
 	mode: 'development',
@@ -23,9 +24,10 @@ module.exports = {
 				}
 			},
 			{
-				resourceQuery: /blockType=i18n/,
-				loader: '@kazupon/vue-i18n-loader'
-			},
+        resourceQuery: /blockType=i18n/,
+        type: 'javascript/auto',
+        loader: '@intlify/vue-i18n-loader',
+      },
 			{
 				test: /\.css$/,
 				use: [
@@ -45,7 +47,8 @@ module.exports = {
 	},
 	resolve: {
 		alias: {
-			vue: 'vue/dist/vue.js'
+			vue: 'vue/dist/vue.js',
+			'@': path.resolve(__dirname, './src')
 		}
 	},
 	watchOptions: {
